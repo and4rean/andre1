@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         String passwordText = passwordEditText.getText().toString();
 
         if (TextUtils.isEmpty(loginText)) {
-            loginEditText.setError("cannot be empty1- !");
+            loginEditText.setError("cannot be empty1 !");
             //return;
         } else {
             loginEditText.setError(null);
