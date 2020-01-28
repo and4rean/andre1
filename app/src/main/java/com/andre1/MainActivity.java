@@ -71,13 +71,13 @@ public class MainActivity extends AppCompatActivity {
         String passwordText = passwordEditText.getText().toString();
 
         if (TextUtils.isEmpty(loginText)) {
-            loginEditText.setError("cannot be empty1 !");
+            loginEditText.setError("cannot be empty1- !");
             //return;
         } else {
             loginEditText.setError(null);
         }
         if (TextUtils.isEmpty(passwordText)) {
-            passwordEditText.setError("cannot be empty2 !");
+            passwordEditText.setError("cannot be empty2- !");
             return;
         } else {
             passwordEditText.setError(null);
