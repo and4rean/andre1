@@ -8,6 +8,12 @@
     >
 
 
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="96dp"
+        tools:ignore="ContentDescription"
+        tools:srcCompat="@drawable/android" />
+
     <TextView
         android:id="@+id/tv_app_title"
         android:layout_width="wrap_content"
@@ -111,5 +117,7 @@
 
 
     </LinearLayout>
+
+
 
 </RelativeLayout>
