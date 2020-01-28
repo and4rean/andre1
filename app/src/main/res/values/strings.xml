@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Andrey1 App</string>
+
+    <string name="title_login">Login1</string>
+    <string name="hint_login">Enter email1 here</string>
+
+    <string name="title_password">Password1</string>
+    <string name="hint_password">Enter password1 here</string>
+
+    <string name="sign_in">Sign In1</string>
+    <string name="forgot_password">Forgot Password1</string>
+</resources>
