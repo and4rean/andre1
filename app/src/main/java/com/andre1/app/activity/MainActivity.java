@@ -1,6 +1,4 @@
-package com.andre1;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.andre1.app.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.andre1.R;
 
 public class MainActivity extends AppCompatActivity {
 
