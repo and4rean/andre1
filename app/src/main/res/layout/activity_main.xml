@@ -8,6 +8,13 @@
     >
 
 
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="96dp"
+        android:src="@drawable/android"
+        tools:ignore="ContentDescription"
+        tools:srcCompat="@drawable/android" />
+
     <TextView
         android:id="@+id/tv_app_title"
         android:layout_width="wrap_content"
@@ -102,6 +109,16 @@
             android:text="@string/forgot_password"
             />
 
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            />
+
+
     </LinearLayout>
+
+
 
 </RelativeLayout>

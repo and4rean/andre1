@@ -95,5 +95,12 @@
         app:layout_constraintStart_toStartOf="@id/btn_sign_in"
         app:layout_constraintTop_toBottomOf="@id/btn_sign_in" />
 
+    <fragment android:name="com.andre1.app.fragment.Fragment1"
+        android:id="@+id/list"
+        android:layout_weight="1"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
